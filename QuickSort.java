@@ -5,7 +5,7 @@ public class QuickSort {
         if(start < end){
             // partition function will give us partition index
             //partition index is where the pivot will go.
-            //all elements before partition index are first part, all after partition are second.
+            //all elements before partition index are first part, all after partition are second..
             int partitionIndex = partition(f, start, end);
             quickSort(f, start, partitionIndex-1);
             quickSort(f, partitionIndex+1, end);
